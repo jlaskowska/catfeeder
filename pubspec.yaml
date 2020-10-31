@@ -1,6 +1,5 @@
 name: catfeeder
-description: An app build using Flutter where the user can track how much food a
-  cat receives daily.
+description: An app build using Flutter where the user can track how much food a cat receives daily.
 publish_to: 'none'
 version: 1.0.0+1
 
@@ -10,8 +9,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_localizations:
+    sdk: flutter
   cupertino_icons: ^1.0.0
-  
 
 dev_dependencies:
   flutter_test:
@@ -21,8 +21,8 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
+  assets:
+    - assets_dev/localizations/
   #   - images/a_dot_ham.jpeg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
