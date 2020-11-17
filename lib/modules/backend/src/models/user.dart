@@ -15,4 +15,7 @@ class User {
         'id': id,
         'cats': cats,
       };
+
+  @override
+  String toString() => toJson().toString();
 }

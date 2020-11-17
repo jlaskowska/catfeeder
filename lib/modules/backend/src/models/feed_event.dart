@@ -30,4 +30,7 @@ class FeedEvent {
         'user_id': userId,
         'time': time?.toUtc()?.millisecondsSinceEpoch,
       };
+
+  @override
+  String toString() => toJson().toString();
 }

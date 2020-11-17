@@ -18,4 +18,7 @@ class Cat {
         'id': id,
         'name': name,
       };
+
+  @override
+  String toString() => toJson().toString();
 }
