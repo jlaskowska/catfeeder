@@ -1,5 +1,6 @@
 name: catfeeder
-description: An app build using Flutter where the user can track how much food a cat receives daily.
+description: An app build using Flutter where the user can track how much food a
+  cat receives daily.
 publish_to: 'none'
 version: 1.0.0+1
 
@@ -12,7 +13,10 @@ dependencies:
     sdk: flutter
   flutter_localizations:
     sdk: flutter
+  cloud_firestore: ^0.14.3
   cupertino_icons: ^1.0.0
+  firebase_auth: ^0.18.2
+  firebase_core: ^0.5.1
 
 dev_dependencies:
   flutter_test:
