@@ -47,5 +47,9 @@
 		<string>de</string>
 		<string>pl</string>
 	</array>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>To upload images from photo libray</string>
+	<key>NSCameraUsageDescription</key>
+	<string>To upload images from camera</string>
 </dict>
 </plist>
