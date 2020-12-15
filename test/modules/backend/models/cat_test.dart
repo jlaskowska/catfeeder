@@ -8,7 +8,8 @@ void main() {
     final jsonString = '''
 {
   "id":"id",
-  "name":"Puszek"
+  "name":"Puszek",
+  "imageUrl":"url"
 }
 ''';
     final jsonMap = json.decode(jsonString);
@@ -16,6 +17,7 @@ void main() {
     expect(cat, isNotNull);
     expect(cat.id, 'id');
     expect(cat.name, 'Puszek');
+    expect(cat.imageUrl, 'url');
   });
 
   test('empty json', () {
@@ -24,5 +26,6 @@ void main() {
     expect(cat, isNotNull);
     expect(cat.id, isNull);
     expect(cat.name, isNull);
+    expect(cat.imageUrl, isNull);
   });
 }
